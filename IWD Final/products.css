@@ -1,0 +1,73 @@
+body {
+  background-image: url('hh.jpg');
+  background-size: cover;              /* Cover the screen */
+  background-repeat: no-repeat;        /* Prevent tiling */
+  background-position: center center;  /* Center the image */
+  background-attachment: fixed;        /* Keeps background fixed during scroll */
+  image-rendering: auto;
+  -webkit-backface-visibility: hidden;
+}
+
+
+   
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #145a32;
+    padding: 0px;
+}
+
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+
+nav a:hover {
+    background-color: #5abf6a;
+    color: rgb(9, 20, 78);}
+ 
+
+
+
+
+
+   nav {
+  display: flex;                     
+  justify-content: center;         
+  align-items: center;               
+  font-size: medium;
+  font-style: oblique;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;                   
+}
+
+img{width: 400px;
+height :600px;
+display: inline-block;
+margin-left: 40vw;}
+
+
+
+p{margin-left:15vw;
+margin-right: 15vw;
+font-size: 30px;
+font-weight: 480;}
+
+ul{font-size:23px;
+display:inline-block;}
+
